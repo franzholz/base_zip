@@ -1,0 +1,60 @@
+{
+  "name": "jambagecom/base-zip",
+  "type": "typo3-cms-extension",
+  "description": "A library to download ZIP files.",
+  "keywords": [
+    "TYPO3",
+    "extension",
+    "zip"
+  ],
+  "support": {
+    "issues": "https://github.com/franzholz/base_zip/issues"
+  },
+  "homepage": "https://jambage.com",
+  "authors": [
+    {
+      "name": "Paul Duncan",
+      "email": "pabs@pablotron.org"
+    },
+    {
+      "name": "Jonatan Männchen",
+      "email": "jonatan@maennchen.ch"
+    },
+    {
+      "name": "Jesse Donat",
+      "email": "donatj@gmail.com"
+    },
+    {
+      "name": "András Kolesár",
+      "email": "kolesar@kolesar.hu"
+    },
+    {
+      "name": "Franz Holzinger",
+      "role": "Developer",
+      "homepage": "https://ttproducts.de"
+    }
+  ],
+  "license": [
+    "GPL-2.0-or-later"
+  ],
+  "require": {
+    "php": "^7.4 || ^8.0",
+    "symfony/polyfill-mbstring": "^1.0",
+    "psr/http-message": "^1.0",
+    "jambagecom/base-enum": "^0.0"
+  },
+  "repositories": [
+    {
+        "type": "path",
+        "url": "Vendor/ZipStream-PHP"
+    }
+  ],
+  "replace": {
+    "typo3-ter/base-zip": "self.version"
+  },
+  "extra": {
+    "typo3/cms": {
+      "extension-key": "base_zip"
+    }
+  }
+}
