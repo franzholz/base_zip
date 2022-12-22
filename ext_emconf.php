@@ -6,7 +6,7 @@
 
 $EM_CONF[$_EXTKEY] = [
     'title' => 'ZIP Library',
-    'description' => 'A library to download ZIP files. ZipStream-PHP 2.2.0',
+    'description' => 'A library to download ZIP files. ZipStream-PHP',
     'category' => 'misc',
     'version' => '0.1.0',
     'state' => 'stable',
