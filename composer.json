@@ -5,7 +5,8 @@
   "keywords": [
     "TYPO3",
     "extension",
-    "zip"
+    "zip",
+    "stream"
   ],
   "support": {
     "issues": "https://github.com/franzholz/base_zip/issues"
@@ -38,19 +39,21 @@
     "GPL-2.0-or-later"
   ],
   "require": {
-    "php": "^7.4 || ^8.0",
-    "symfony/polyfill-mbstring": "^1.0",
-    "psr/http-message": "^1.0",
-    "jambagecom/base-enum": "^0.0.2"
+    "typo3/cms-core": "^10.4 || ^11.5 || ^12.4",
+    "ext-mbstring": "*",
+    "ext-zlib": "*"
   },
-  "repositories": [
-    {
-        "type": "path",
-        "url": "Vendor/ZipStream-PHP"
+  "autoload": {
+    "psr-4": {
+      "ZipStream\\": "Vendor/ZipStream-PHP/src/"
     }
-  ],
+  },
   "replace": {
     "typo3-ter/base-zip": "self.version"
+  },
+  "suggest": {
+    "psr/http-message": "^2.0",
+    "guzzlehttp/psr7": "^2.4"
   },
   "extra": {
     "typo3/cms": {

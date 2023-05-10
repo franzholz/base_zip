@@ -1,3 +1,7 @@
+2023-05-10 Franz Holzinger <franz@ttproducts.de>
+    * upgrade: ZipStream-PHP 3.0.2
+    * supports TYPO3 12
+
 2022-12-22 Franz Holzinger <franz@ttproducts.de>
     * upgrade: ZipStream-PHP 2.4.0
 

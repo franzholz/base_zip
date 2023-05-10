@@ -1,6 +1,16 @@
-base_zip
-========
-This provides the ZipStream-PHP library.
-It is required for older versions of base_excel, where external libraries are not included into the PHAR file.
+# TYPO3 extension base_zip
+
+## What is does
+
+This extension brings the "ZipStream-PHP" classes "maennchen/zipstream-php" to TYPO3.
+
+## What is the origin
+
+See https://github.com/maennchen/ZipStream-PHP/tree/3.0.2
+
+## Documentation
+
+https://github.com/maennchen/ZipStream-PHP/tree/3.0.2
+
 
 
