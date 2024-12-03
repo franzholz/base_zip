@@ -1,4 +1,4 @@
-ZipStream-PHP (3.0.2)
+ZipStream-PHP (3.1.1)
 
 
 

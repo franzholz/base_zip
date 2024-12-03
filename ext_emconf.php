@@ -8,7 +8,7 @@ $EM_CONF[$_EXTKEY] = [
     'title' => 'ZIP Library',
     'description' => 'A library to download ZIP files. ZipStream-PHP',
     'category' => 'misc',
-    'version' => '3.0.2',
+    'version' => '3.1.1',
     'state' => 'stable',
     'uploadfolder' => 0,
     'createDirs' => '',
@@ -18,7 +18,7 @@ $EM_CONF[$_EXTKEY] = [
     'author_company' => 'jambage.com',
     'constraints' => [
         'depends' => [
-            'typo3' => '10.4.0-12.4.99'
+            'typo3' => '11.5.0-13.4.99'
         ],
         'conflicts' => [
         ],

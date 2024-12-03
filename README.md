@@ -6,11 +6,11 @@ This extension brings the "ZipStream-PHP" classes "maennchen/zipstream-php" to T
 
 ## What is the origin
 
-See https://github.com/maennchen/ZipStream-PHP/tree/3.0.2
+See https://github.com/maennchen/ZipStream-PHP/tree/3.1.1
 
 ## Documentation
 
-https://github.com/maennchen/ZipStream-PHP/tree/3.0.2
+https://github.com/maennchen/ZipStream-PHP/tree/3.1.1
 
 
 
